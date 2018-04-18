@@ -1,0 +1,27 @@
+header {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: auto;
+}
+
+.person {
+    height: 300px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+}
+
+.tt {
+    border: solid red 2px;
+}
+
+#sky {
+    background-color: #adc9f7;
+}
+
+.grassland {
+    height: 34px;
+    width: auto;
+    background-image: url("../img/artp3border");
+    height: 34px;
+}
