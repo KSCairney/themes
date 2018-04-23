@@ -1,5 +1,7 @@
 body {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+    background-color: #adc9f7;
 }
 
 header {
@@ -9,14 +11,8 @@ header {
 }
 
 .person {
-    height: 200px;
+    height: 100px;
     width: auto;
-    text-align: center;
-    margin: auto;
-}
-
-.tt {
-    border: solid red 0px;
 }
 
 .names {
@@ -24,46 +20,124 @@ header {
     text-align: center;
 }
 
-.name h2 {
-    padding-top: 50px;
+#myName {
+    font-size: 1.5em;
 }
 
 #sky {
     background-color: #adc9f7;
     padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    padding-bottom: -3px;
+    width: 100%;
 }
 
 .grassland {
     height: 24px;
     width: 100%;
     background-color: green;
+    margin: 0;
 }
 
 .soil {
     background-color: #685642;
 }
 
+.projbuttons p {
+    font-size: 0.7em;
+}
+
 .proj {
-    padding: 10px 5px 10px 5px;
+    padding: 10px 5px 10px 10px;
 }
 
 .proj img {
-    width: 100%;
+    width: 70%;
     height: auto;
 }
 
-.texts {
+.texts, .projbuttons {
     color: white;
 }
 
+.texts {
+    font-size: 0.5em;
+}
+
+.texts i {
+    font-size: 0.7em;
+    padding: 2px;
+}
+
+.projname {
+        padding-top: 10px;
+        font-size: 0.8em;
+    }
+
+#subtitled {
+    font-size: 0.5em;
+    padding-bottom: 0;
+}
+
+.selector li{
+  list-style-type: none;
+  border: white 2px solid;
+  padding: 5px;
+  margin-left: -15px;
+  font-size: 0.5em;
+}
+
+.selector li:hover{
+  background-color: #000000;
+}
+
 @media (min-width: 412px) {
+    #myName {
+        padding-top: 50px;
+        font-size: 2.2em;
+    }
+    
+    .person {
+        height: 200px;
+        width: auto;
+        text-align: center;
+        vertical-align: bottom;
+    }
+    
+    #subtitled {
+        font-size: 1.0em;
+        padding-bottom: 0;
+    }
+    
+    .texts {
+        font-size: 1em;
+    }
+    
     .texts i {
         font-size: 2.5em;
         padding: 2px;
     }
-}
-
-.texts i {
-    font-size: 1em;
-    padding: 2px;
+    
+    .projbuttons p {
+       font-size: 1.5em;
+    }
+    
+    .proj {
+        padding: 10px;
+    }
+    
+    .proj img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .projname {
+        padding-top: 10px;
+        font-size: 1.5em;
+    }
+    
+    .selector li {
+        font-size: 1em;
+    }
 }

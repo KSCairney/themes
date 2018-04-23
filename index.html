@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Titillium+Web:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
@@ -30,14 +30,14 @@
   <body>
   	<div class="container-fluid">
 	  	<div class="tt row" id="sky">
-	  		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-3">
+	  		<div class="col-xl-4 col-lg-4 col-md-4 hidden-sm hidden-xs">
 	  			<img class="tt person" src="/img/artp4.png">
 	  		</div>
 	  		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-9 col-xs-9 names">
-	  			<h2 class="tt">Kenneth Cairney</h2>
-	  			<h4 class="tt">Web Developer • Archaeologist • Bibliophile</h4>
+	  			<p class="tt" id="myName">Kenneth Cairney</p>
+	  			<p class="tt" id="subtitled">Web Developer & Archaeologist</p>
 	  		</div>
-	  		<div class="col-xl-4 col-lg-4 col-md-4 hidden-sm hidden-xs">
+	  		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-xs-3">
 	  			<img class="tt person" src="/img/artp2.png">
 	  		</div>
 	  	</div>
@@ -50,45 +50,20 @@
 	  	  </div>
 	  	</div>
 	  	<div class="row soil">
-	  	  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 proj texts">
-	  	    <img src="img/nsgv.jpg">
+	  	  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-xs-4 projbuttons">
+	  	    <p>Select Project:</p>
+	  	    <ul class="selector">
+	  	      <li>The Holy GrALE</li>
+	  	      <li onclick="namisgv();">NAMI SGV</li>
+	  	      <li>Bike Berlin</li>
+	  	      <li>Tsundoku</li>
+	  	      <li>Hopping the Pond</li>
+	  	    </ul>
 	  	  </div>
-	  	  <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-6 proj texts">
-	  	    <h4>NAMI San Gabriel Valley</h4>
-	  	    <p>A rails website for a local charity.</p>
-	  	    <i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>
-	  	  </div>
-	  	</div>
-	  	<div class="row soil">
-	  	  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 proj texts">
-	  	    <img src="img/bikeberlin.jpg">
-	  	  </div>
-	  	  <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-6 proj texts">
-	  	    <h4>Bike Berlin</h4>
-	  	    <p>A used bike eCommerce site.</p>
-	  	    <i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-git-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>
-	  	  </div>
-	  	</div>
-	  	<div class="row soil">
-	  	  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 proj texts">
-	  	    <img src="img/tsundoku.jpg">
-	  	  </div>
-	  	  <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-6 proj texts">
-	  	    <h4>Tsundoku</h4>
-	  	    <p>A book blog with random book recommendations.</p>
-	  	    <i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i>
-	  	  </div>
-	  	</div>
-	  	<div class="row soil">
-	  	  <div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-6 proj texts">
-	  	    <img src="img/hopping.jpg">
-	  	  </div>
-	  	  <div class="col-xl-9 col-lg-9 col-md-8 col-sm-6 col-xs-6 proj texts">
-	  	    <h4>Hopping the Pond</h4>
-	  	    <p>A travel blog with polaroid posts.</p>
-	  	    <i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i>
+	  	  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-8 col-xs-8 proj texts" id="projsect">
 	  	  </div>
 	  	</div>
   	</div>
+  	<script type="text/javascript" src="js/script.js"></script>
   </body>
  </html>

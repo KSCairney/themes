@@ -1,0 +1,3 @@
+function namisgv() {
+    document.getElementById("projsect").innerHTML = '<img src="img/nsgv.jpg"><p class="projname">NAMI San Gabriel Valley</p><p>A rails website for a local charity.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
+}
