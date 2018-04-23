@@ -84,8 +84,9 @@ header {
   list-style-type: none;
   border: white 2px solid;
   padding: 5px;
-  margin-left: -15px;
+  margin-left: -40px;
   font-size: 0.5em;
+  cursor: pointer;
 }
 
 .selector li:hover{
@@ -140,4 +141,11 @@ header {
     .selector li {
         font-size: 1em;
     }
+}
+
+/*font-family: 'Titillium Web', sans-serif;*/
+
+.tall {
+    height: 600px;
+    background-color: #685642;
 }
