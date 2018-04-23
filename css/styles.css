@@ -5,14 +5,23 @@ header {
 }
 
 .person {
-    height: 300px;
+    height: 200px;
     width: auto;
     text-align: center;
     margin: auto;
 }
 
 .tt {
-    border: solid red 2px;
+    border: solid red 0px;
+}
+
+.names {
+    color: white;
+    text-align: center;
+}
+
+.name h2 {
+    padding-top: 20px;
 }
 
 #sky {
@@ -22,6 +31,9 @@ header {
 .grassland {
     height: 34px;
     width: auto;
-    background-image: url("../img/artp3border");
-    height: 34px;
+    background-color: green;
+}
+
+.soil {
+    background-color: brown;
 }
