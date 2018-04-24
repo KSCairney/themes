@@ -1,3 +1,5 @@
+
+
 function holy() {
     document.getElementById("projsect").innerHTML = '<a href="https://damp-retreat-24388.herokuapp.com/"><img src="img/grale.JPG"></a><p class="projname">The Holy GrALE</p><p>A rails website for a micropub with an updatable beer list.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
 }
