@@ -5,6 +5,16 @@ body {
     color: white;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     display: inline-block;
     vertical-align: bottom;
@@ -19,6 +29,7 @@ header {
 .names {
     color: white;
     text-align: center;
+    padding-top: 5px;
 }
 
 #myName {
@@ -35,11 +46,37 @@ header {
 }
 
 .grassland {
-    height: 24px;
+    height: 42px;
     width: 100%;
     background: #3b6d40;
     margin: 0;
 }
+
+.dirtnav {
+    text-align: center;
+    padding-top: 18px;
+}
+
+.dirtnav-stick {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.dirtnav ul li {
+    color: white;
+    cursor:pointer;
+    list-style-type: none;
+    border: white 2px solid;
+    display: inline;
+    padding: 5px;
+    text-align: center;
+}
+
+.dirtnav ul li:hover {
+    background-color: #000000;
+} 
 
 .soil {
     background: #685642;
@@ -56,6 +93,7 @@ header {
 .proj img {
     width: 70%;
     height: auto;
+    border: white 2px solid;
 }
 
 .texts, .projbuttons {
@@ -95,7 +133,7 @@ header {
 }
 
 #themeselect {
-    display: inline-block;
+    padding: 10px;
 }
 
 #themeselect li{
@@ -103,6 +141,43 @@ header {
     cursor:pointer;
     list-style-type: none;
     border: white 2px solid;
+    display: inline;
+    padding: 5px;
+}
+
+.blackout {
+    background-color: #000000;
+}
+
+#themeselect li:hover{
+    background-color: #000000;
+}
+
+.subsection {
+    font-size: 1.0em;
+    padding-top: 20px;
+}
+
+.portrait {
+    text-align: center;
+    margin: auto;
+}
+
+.portrait img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border: white 2px solid;
+}
+
+.about p {
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+}
+
+.bottom ul {
+    text-align: center;
 }
 
 @media (min-width: 412px) {
@@ -153,10 +228,19 @@ header {
     .selector li {
         font-size: 1em;
     }
+    
+    .subsection {
+        font-size: 1.5em;
+        padding-top: 20px;
+    }
 }
 
 /*font-family: 'Titillium Web', sans-serif;*/
 
 .tall {
-    height: 600px;
+    height: 120px;
+}
+
+tt {
+    border: red solid 2px;
 }

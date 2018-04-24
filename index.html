@@ -27,7 +27,7 @@
       !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
     </script>-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".dirtnav">
   	<div class="container-fluid">
 	  	<div class="tt row" id="sky">
 	  		<div class="col-xl-4 col-lg-4 col-md-4 hidden-sm hidden-xs">
@@ -42,37 +42,71 @@
 	  		</div>
 	  	</div>
 	  	<div class="row tt">
-	  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 grassland"></div>
+	  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 grassland">
+	  		</div>
 	  	</div>
-	  	<div class="row soil">
+	  	<div class="row soil dirtnav tt">
+	  		<ul id="navimenu" class="tt">
+	  				<li id="#nhome"><a href="#sky">Home</a></li>
+	  				<li id="#nproj"><a href="#projects">Projects</a></li>
+	  				<li id="#nam"><a href="#aboutme">About Me</a></li>
+	  				<li id="#ncon"><a href="#contact">Contact</a></li>
+	  				<li id="#ntheme"><a href="#themes">Themes</a></li>
+	  			</ul>
+	  	</div>
+	  	<div class="row soil" id="projects">
 	  	  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 names">
-	  	    <h3 class="tt">Projects</h3>
+	  	    <p class="subsection">Projects</p>
 	  	  </div>
 	  	</div>
 	  	<div class="row soil">
 	  	  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-4 col-xs-4 projbuttons">
 	  	    <p>Select Project:</p>
 	  	    <ul class="selector">
-	  	      <li onclick="holy();">The Holy GrALE</li>
-	  	      <li onclick="namisgv();">NAMI SGV</li>
-	  	      <li onclick="bikeb();">Bike Berlin</li>
-	  	      <li onclick="port2();">Alt Portfolio</li>
-	  	      <li onclick="tsun();">Tsundoku</li>
-	  	      <li onclick="hop();">Hopping the Pond</li>
-	  	      <li onclick="paint();">Painty Pixel</li>
+	  	      <li id="proj07" class="projy" onclick="holy();">The Holy GrALE</li>
+	  	      <li id="proj06" class="projy" onclick="namisgv();">NAMI SGV</li>
+	  	      <li id="proj05" class="projy" onclick="bikeb();">Bike Berlin</li>
+	  	      <li id="proj04" class="projy" onclick="port2();">Alt Portfolio</li>
+	  	      <li id="proj03" class="projy" onclick="eel();">English E-Learning</li>
+	  	      <li id="proj02" class="projy" onclick="tsun();">Tsundoku</li>
+	  	      <li id="proj01" class="projy" onclick="hop();">Hopping the Pond</li>
+	  	      <li id="proj00" class="projy" onclick="paint();">Painty Pixel</li>
 	  	    </ul>
 	  	  </div>
 	  	  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-8 col-xs-8 proj texts" id="projsect">
 	  	  </div>
 	  	</div>
-	  	<div class="row tall soil">
-	  		<p>Theme:</p>
-	  		<ul id="themeselect">
-		  		<li id="chu">Chumash</li>
-		  		<li id="indy">Dig Site</li>
-		  		<li id="tut">Egypt</li>
-		  		<li id="breton">Stone Henge</li>
-		  	</ul>
+	  	<div class="row soil" id="aboutme">
+	  	  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 names">
+	  	    <p class="subsection">About Me</h3>
+	  	  </div>
+	  	</div>
+	  	<div class="row soil">
+	  		<div class="col-xl-3 col-lg-3 col-md-3 col-sm-5 col-xs-5 portrait tt">
+	  			<img id="littleme" src="./img/artvesuvius2.png">
+	  		</div>
+	  		<div class="col-xl-9 col-lg-9 col-md-9 col-sm-7 col-xs-7 about tt">
+	  			<p>I am an archaeologist who discovered a love for web development. My experiences and studies have led me all over the world, and I have had the pleasure of meeting some amazing people. Now I have found a field that fulfills my quest to always be learning something new. I continue Archaeology as a hobby, while I pursue web development and new projects professionally.</p>
+	  			<br>
+	  			<p>This portfolio was built to tie together my archaeological interests and highlight my more recent explorations into web development. If any of my projects spark your interest, or if you would like to discuss any future projects, please contact me.</p>
+	  		</div>
+	  	</div>
+	  	<div class="row soil" id="themes">
+	  	  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 names">
+	  	    <p class="subsection">Themes</p>
+	  	  </div>
+	  	</div>
+	  	<div class="row soil tall">
+	  		<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12 bottom">
+			  	<ul id="themeselect">
+			  		<li id="blank">Default</li>
+				  	<li id="chu">Chumash</li>
+				  	<li id="indy">Dig Site</li>
+				  	<li id="tut">Egypt</li>
+				  	<li id="breton" class="blackout">Stone Henge</li>
+				  </ul>
+				  <p>&copy; Kenneth Cairney 2018</p>
+			  </div>
 	  	</div>
   	</div>
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
