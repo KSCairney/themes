@@ -2,6 +2,7 @@ body {
     font-family: 'Press Start 2P', cursive;
     margin: 0;
     background-color: #adc9f7;
+    color: white;
 }
 
 header {
@@ -36,12 +37,12 @@ header {
 .grassland {
     height: 24px;
     width: 100%;
-    background-color: green;
+    background: #3b6d40;
     margin: 0;
 }
 
 .soil {
-    background-color: #685642;
+    background: #685642;
 }
 
 .projbuttons p {
@@ -91,6 +92,17 @@ header {
 
 .selector li:hover{
   background-color: #000000;
+}
+
+#themeselect {
+    display: inline-block;
+}
+
+#themeselect li{
+    color: white;
+    cursor:pointer;
+    list-style-type: none;
+    border: white 2px solid;
 }
 
 @media (min-width: 412px) {
@@ -147,5 +159,4 @@ header {
 
 .tall {
     height: 600px;
-    background-color: #685642;
 }
