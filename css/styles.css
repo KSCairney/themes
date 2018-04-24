@@ -180,6 +180,17 @@ header {
     text-align: center;
 }
 
+.boxy {
+    width: 100%;
+    margin-bottom: 10px;
+    border: white 2px solid;
+}
+
+.sub {
+    background-color: #000000;
+    border: white 2px solid;
+}
+
 @media (min-width: 412px) {
     #myName {
         padding-top: 50px;
