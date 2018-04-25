@@ -39,14 +39,14 @@
 }
 
 #oCButton:hover {
-    border: solid 1px #000000;
+    border: solid 1px #2f3d10;
     border-radius: 3px;
     padding: 10px;
-    background-color: #cec7be;
+    background-color: #f5efd0;
     margin: 5px;
     font-family: 'Cairo', sans-serif;
     font-size: 1.4em;
-    color: #000000;
+    color: #2f3d10;
 }
 
 #o8Button {

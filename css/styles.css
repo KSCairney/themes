@@ -1,8 +1,10 @@
-body {
+html, body {
     font-family: 'Press Start 2P', cursive;
     margin: 0;
+    padding: 0;
     background-color: #adc9f7;
     color: white;
+    overflow-x: hidden; 
 }
 
 a {
@@ -189,6 +191,20 @@ header {
 .sub {
     background-color: #000000;
     border: white 2px solid;
+}
+
+.names a {
+    color: #ffffff;
+    font-size: 3.0em;
+}
+
+.names a:hover {
+    color: #000000;
+    font-size: 3.0em;
+}
+
+#formish {
+    padding-top: 20px;
 }
 
 @media (min-width: 412px) {
