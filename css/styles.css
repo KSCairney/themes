@@ -28,6 +28,10 @@ header {
     width: auto;
 }
 
+.spaced {
+    height: 50px;
+}
+
 .names {
     color: white;
     text-align: center;
@@ -186,6 +190,14 @@ header {
     width: 100%;
     margin-bottom: 10px;
     border: white 2px solid;
+    color: black; !important
+}
+
+.boxy:focus {
+    border-color: #ffffff;
+    box-shadow: none;
+    outline: none;
+    color: black;
 }
 
 .sub {
