@@ -83,6 +83,7 @@ header {
     display: inline;
     padding: 5px;
     text-align: center;
+    font-size: 0.5;
 }
 
 .dirtnav ul li:hover {
@@ -94,7 +95,7 @@ header {
 }
 
 .projbuttons p {
-    font-size: 0.7em;
+    font-size: 0.5em;
 }
 
 .proj {
@@ -225,6 +226,10 @@ header {
 }
 
 @media (min-width: 412px) {
+    .dirtnav ul li {
+        font-size: 1.0em;
+    }
+    
     #myName {
         padding-top: 50px;
         font-size: 2.2em;

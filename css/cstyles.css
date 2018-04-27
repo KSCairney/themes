@@ -86,7 +86,7 @@ a:hover {
     list-style: none;
     display: inline;
     margin: 5px;
-    font-size: 1.1em;
+    font-size: 0.5em;
 }
 
 .dirtnav ul li:hover {
@@ -264,6 +264,10 @@ a:hover {
 }
 
 @media (min-width: 412px) {
+    .dirtnav ul li {
+        font-size: 1.1em;
+    }
+    
      #subtitled {
         font-size: 1.0em;
         padding-bottom: 0;
