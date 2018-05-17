@@ -52,7 +52,7 @@ function holy() {
 };
 
 function listy() {
-    document.getElementById("projsect").innerHTML = '<a href="https://shopping-time-99c16.firebaseapp.com/"><img src="img/listy.jpg"></a><p class="projname">Shopping Time</p><p>A simple app to build a shopping list.</p><i class="devicon-angularjs-plain-wordmark"></i><i class="devicon-nodejs-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-git-plain-wordmark"></i>'
+    document.getElementById("projsect").innerHTML = '<a href="https://shopping-time-99c16.firebaseapp.com/"><img src="img/listy.jpg"></a><p class="projname">Shopping Time</p><p>A simple app to build a shopping list.</p><i class="devicon-angularjs-plain"></i><i class="devicon-nodejs-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i>'
 };
 
 function namisgv() {
