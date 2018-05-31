@@ -98,7 +98,7 @@ function holy() {
 };
 
 function wcf() {
-    document.getElementById("projsect").innerHTML = '<a href="https://wcfootball.herokuapp.com/"><img src="img/wcfootball.JPG"></a><p class="projname">The Holy GrALE</p><p>A website for the coming World Cup where users can predict winners.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
+    document.getElementById("projsect").innerHTML = '<a href="https://wcfootball.herokuapp.com/"><img src="img/wcfootball.JPG"></a><p class="projname">World Cup Football Pick\'em</p><p>A website for the coming World Cup where users can predict winners.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
 };
 
 function listy() {
