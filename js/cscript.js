@@ -1,43 +1,47 @@
 $(document).ready(function(){
     $('#proj00').click(function(){
         $('#proj00').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj01').click(function(){
         $('#proj01').addClass('chosen');
-        $('#proj00, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj00, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj02').click(function(){
         $('#proj02').addClass('chosen');
-        $('#proj01, #proj00, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj00, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj03').click(function(){
         $('#proj03').addClass('chosen');
-        $('#proj01, #proj02, #proj00, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj00, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj04').click(function(){
         $('#proj04').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj00, #proj05, #proj06, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj00, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj05').click(function(){
         $('#proj05').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj04, #proj00, #proj06, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj04, #proj00, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj06').click(function(){
         $('#proj06').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj00, #proj07, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj00, #proj07, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj07').click(function(){
         $('#proj07').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj08, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj08, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj08').click(function(){
         $('#proj08').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj09').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj09, #proj10').removeClass('chosen')
     });
     $('#proj09').click(function(){
         $('#proj09').addClass('chosen');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08').removeClass('chosen')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj10').removeClass('chosen')
+    });
+    $('#proj10').click(function(){
+        $('#proj10').addClass('chosen');
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj09').removeClass('chosen')
     });
     
     $(window).scroll(function () {
@@ -53,6 +57,10 @@ $(document).ready(function(){
 
 function holy() {
     document.getElementById("projsect").innerHTML = '<a href="https://damp-retreat-24388.herokuapp.com/"><img src="img/grale.JPG"></a><p class="projname">The Holy GrALE</p><p>A rails website for a micropub with an updatable beer list.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
+};
+
+function rose() {
+    document.getElementById("projsect").innerHTML = '<a href="http://www.nancyforrosemead.com/"><img src="img/eng.JPG"></a><p class="projname">Nancy For Rosemead</p><p>A rails website for a city council campaign.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-bitbucket-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
 };
 
 function wcf() {
