@@ -37,47 +37,51 @@ $(document).ready(function(){
     
     $('#proj00').click(function(){
         $('#proj00').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj01').click(function(){
         $('#proj01').addClass('blackout');
-        $('#proj00, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj00, #proj02, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj02').click(function(){
         $('#proj02').addClass('blackout');
-        $('#proj01, #proj00, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj00, #proj03, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj03').click(function(){
         $('#proj03').addClass('blackout');
-        $('#proj01, #proj02, #proj00, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj00, #proj04, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj04').click(function(){
         $('#proj04').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj00, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj00, #proj05, #proj06, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj05').click(function(){
         $('#proj05').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj00, #proj06, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj00, #proj06, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj06').click(function(){
         $('#proj06').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj00, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj00, #proj07, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj07').click(function(){
         $('#proj07').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj08, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj08, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj08').click(function(){
         $('#proj08').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj09, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj09, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj09').click(function(){
         $('#proj09').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj10').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj10, #proj11').removeClass('blackout')
     });
     $('#proj10').click(function(){
         $('#proj10').addClass('blackout');
-        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj09').removeClass('blackout')
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj09, #proj11').removeClass('blackout')
+    });
+    $('#proj11').click(function(){
+        $('#proj11').addClass('blackout');
+        $('#proj01, #proj02, #proj03, #proj04, #proj05, #proj06, #proj00, #proj07, #proj08, #proj09, #proj10').removeClass('blackout')
     });
     
     $('#littleme').hover(function(){
@@ -99,6 +103,10 @@ $(document).ready(function(){
 
 function holy() {
     document.getElementById("projsect").innerHTML = '<a href="https://damp-retreat-24388.herokuapp.com/"><img src="img/grale.JPG"></a><p class="projname">The Holy GrALE</p><p>A rails website for a micropub with an updatable beer list.</p><i class="devicon-ruby-plain-wordmark"></i><i class="devicon-rails-plain-wordmark"></i><i class="devicon-javascript-plain"></i><i class="devicon-jquery-plain-wordmark"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i><i class="devicon-heroku-plain-wordmark"></i>'
+};
+
+function next() {
+    document.getElementById("projsect").innerHTML = '<a href="https://kscairney.github.io/yournextbook/"><img src="img/Your Next Favorite Book.JPG"></a><p class="projname">Your Next Favorite Book</p><p>A re-do of an older idea, a JavaScript based book recommendation app.</p><i class="devicon-javascript-plain"></i><i class="devicon-html5-plain-wordmark"></i><i class="devicon-css3-plain-wordmark"></i><i class="devicon-github-plain-wordmark"></i>'
 };
 
 function rose() {
